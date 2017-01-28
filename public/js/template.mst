@@ -1,0 +1,3 @@
+{{#customers}}
+    <h3><strong>{{id}}</strong></h3>
+{{/customers}}
