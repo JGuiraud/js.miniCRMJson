@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="formUpdate" action="/post" method="POST">
+        <p>First name: </p>
+        <input type="text" name="first_name" placeholder="First name" value="michel">
+        <p>Last name: </p>
+        <input type="text" name="last_name" placeholder="Last name" value="drucker">
+        <p>Company</p>
+        <input type="text" name="company" placeholder="Company">
+        <p>Role</p>
+        <input type="text" name="role" placeholder="Role">
+        <p>Phone number</p>
+        <input type="text" name="phone" placeholder="Phone">
+        <p>Email</p>
+        <input type="text" name="email" placeholder="email">
+        <p>Description</p>
+        <textarea name="description" placeholder="Description" rows="7" cols="50"></textarea><br>
+
+        <button type="submit" id="send">Send</button>
+    </form>
+</body>
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+</html>
